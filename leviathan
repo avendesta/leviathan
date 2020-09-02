@@ -1,0 +1,6 @@
+The instructions can be found at https://overthewire.org/wargames/leviathan/
+
+To access level-0, ssh into overthewire.org with username and password both leviathan0
+>> ssh leviathan0@leviathan.labs.overthewire.org -p 2223
+
+Use a similar command for the other levels
