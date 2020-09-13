@@ -1,0 +1,8 @@
+>> ls -lah # shows file named 'check' with setuid set
+>> ltrace ./check # shows the strcmp of the password with 'sex'
+>> ./check # then enter 'sex' on password, which will lead you to a new shell
+>> whoami # shows you the current user has changed to leviathan2
+>> cat /etc/leviathan_password/leviathan2 # reveals the password
+
+
+password: "ougahZi8Ta"
