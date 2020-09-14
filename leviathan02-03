@@ -1,0 +1,6 @@
+>> ~/printfile test.txt # displays the content of the file if the file exist
+>> ~/printfile /etc/leviathan_pass/leviathan3 # does not display
+>> ltrace ~/printfile "one two" # will show you that 'access' function checks the whole name "one two" while the 'cat' function just uses the first part one
+so lets make a 
+
+password: "Ahdiemoo1j"

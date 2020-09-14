@@ -1,0 +1,8 @@
+>> ls -lah # shows file named 'level3' with setuid set, owner leviathan4
+>> ltrace ./level3 # shows the strcmp of the password with 'snlprintf'
+>> ./level3 # then enter 'snlprintf' on password, which will lead you to a new shell
+>> whoami # shows you the current user has changed to leviathan4
+>> cat /etc/leviathan_password/leviathan4 # reveals the password
+
+
+password: "vuH0coox6m"

@@ -1,0 +1,8 @@
+>> ls -lah # shows a hidden directory '.trash'
+>> cd .trash; ls -lah # shows a file named 'bin' with setuid set, owned by leviathan5
+>> ltrace ./bin # shows fopen("/etc/leviathan_pass/leviathan5", "r"), the password for leviathan5 is being read
+>> ./bin # outputs ones and zeros, probably the password for the next level in binary text
+converting the binary to ascii text reveals the password
+
+
+password: "Tith4cokei"
